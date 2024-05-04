@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   <!-- Tic tac container to show -->
+    <div class="grid-container">
+        <input class="grid-item" type="text" id="cell-0-0" oninput="checkWin(this)">
+        <input class="grid-item" type="text" id="cell-0-1" oninput="checkWin(this)">
+        <input class="grid-item" type="text" id="cell-0-2" oninput="checkWin(this)">
+        <input class="grid-item" type="text" id="cell-1-0" oninput="checkWin(this)">
+        <input class="grid-item" type="text" id="cell-1-1" oninput="checkWin(this)">
+        <input class="grid-item" type="text" id="cell-1-2" oninput="checkWin(this)">
+        <input class="grid-item" type="text" id="cell-2-0" oninput="checkWin(this)">
+        <input class="grid-item" type="text" id="cell-2-1" oninput="checkWin(this)">
+        <input class="grid-item" type="text" id="cell-2-2" oninput="checkWin(this)">        
+    </div>
+
+    <div id="message"></div>
+
+    <button id="play-again" onclick="clearGrid()">Play Again</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
